@@ -8,6 +8,7 @@
     src: url(https://github.com/TobinCavanaugh/themes/blob/master/OpenDyslexic-R.otf);
 }
 
+/*
 :root {
     --font-primary: var(--customFont) ,"gg sans";
     --font-display: var(--customFont) ,"gg sans";
@@ -15,7 +16,7 @@
 ::placeholder, body, button, input, select, textarea{
     font-family: var(--customFont) !important;
 }
-
+*/
 
 :root {
     --backgroundColor01: #1e2731;
