@@ -1,7 +1,14 @@
-:root {
-    --font-primary: var(--customFont) ,"gg sans";
-    --font-display: var(--customFont) ,"gg sans";
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('https://github.com/TobinCavanaugh/themes/blob/master/OpenDyslexic-R.otf?raw=true') format('opentype');
 }
-::placeholder, body, button, input, select, textarea{
-    font-family: var(--customFont) !important;
+
+:root {
+  --customFont: 'OpenDyslexic', sans-serif;
+  --font-primary: var(--customFont) ,"gg sans";
+  --font-display: var(--customFont) ,"gg sans";
+}
+
+::placeholder, body, button, input, select, textarea {
+  font-family: var(--customFont) !important;
 }
