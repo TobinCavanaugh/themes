@@ -1,17 +1,11 @@
-/* @import url("https://xcruxiex.github.io/themes/core/custom-font.css"); */
+@import url("https://github.com/TobinCavanaugh/themes/blob/master/core/custom-font.css");
 @import url("https://xcruxiex.github.io/themes/core/settings-icons.css");
 @import url("https://nyri4.github.io/Discolored/main.css"); 
 @import url("https://xcruxiex.github.io/themes/core/hljs.css");
 
-@font-face{
-    font-family: customFont;
-    src: url(https://github.com/TobinCavanaugh/themes/blob/master/OpenDyslexic-R.otf);
-}
-!important
-
 :root {
-    --font-primary: customFont;
-    --font-display: customFont;
+    --font-primary: var(--customFont);
+    --font-display: var(--customFont);
 }
 ::placeholder, body, button, input, select, textarea{
     font-family: var(--customFont) !important;
