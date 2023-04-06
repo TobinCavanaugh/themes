@@ -4,19 +4,17 @@
 @import url("https://xcruxiex.github.io/themes/core/hljs.css");
 
 @font-face{
-    font-family: --customFont;
+    font-family: customFont;
     src: url(https://github.com/TobinCavanaugh/themes/blob/master/OpenDyslexic-R.otf);
 }
 
-/*
 :root {
-    --font-primary: var(--customFont) ,"gg sans";
-    --font-display: var(--customFont) ,"gg sans";
+    --font-primary: customFont;
+    --font-display: customFont;
 }
 ::placeholder, body, button, input, select, textarea{
     font-family: var(--customFont) !important;
 }
-*/
 
 :root {
     --backgroundColor01: #1e2731;
