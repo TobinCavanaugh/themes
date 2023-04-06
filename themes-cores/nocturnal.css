@@ -7,6 +7,7 @@
     font-family: customFont;
     src: url(https://github.com/TobinCavanaugh/themes/blob/master/OpenDyslexic-R.otf);
 }
+!important
 
 :root {
     --font-primary: customFont;
