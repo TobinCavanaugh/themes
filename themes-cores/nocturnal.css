@@ -3,6 +3,11 @@
 @import url("https://nyri4.github.io/Discolored/main.css"); 
 @import url("https://xcruxiex.github.io/themes/core/hljs.css");
 
+@font-face{
+    font-family: --customFont;
+    src: url(https://github.com/TobinCavanaugh/themes/blob/master/OpenDyslexic-R.otf);
+}
+
 :root {
     --font-primary: var(--customFont) ,"gg sans";
     --font-display: var(--customFont) ,"gg sans";
