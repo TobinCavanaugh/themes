@@ -2,7 +2,17 @@
 @import url("https://xcruxiex.github.io/themes/core/settings-icons.css");
 @import url("https://nyri4.github.io/Discolored/main.css"); 
 @import url("https://xcruxiex.github.io/themes/core/hljs.css");
-
+#app-mount div[class^="chat-"] div[class*="container-"] div[class^="messageContent-"], 
+#app-mount div[class^="chat-"] div[class*="container-"] div[class^="accessory-"], 
+#app-mount div[class^="chat-"] div[class*="container-"] span[class^="edited-"],
+#app-mount div[class^="chat-"] div[class*="container-"] h2[class^="embedAuthor-"],
+#app-mount div[class^="chat-"] div[class*="container-"] span[class^="embedTitle-"],
+#app-mount div[class^="chat-"] div[class*="container-"] span[class^="embedDescription-"],
+#app-mount div[class^="chat-"] div[class*="container-"] span[class^="embedFields-"],
+#app-mount div[class^="chat-"] div[class*="container-"] span[class^="mention-"],
+#app-mount div[class^="chat-"] div[class*="container-"] span[class^="emoji-"] {
+    font-family: 'OpenDyslexic', sans-serif !important;
+}
 :root {
     --font-primary: var(--customFont);
     --font-display: var(--customFont);
