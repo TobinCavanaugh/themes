@@ -21,6 +21,11 @@
     font-family: var(--customFont) !important;
 }
 
+*{
+
+    font-family: 'OpenDyslexic';
+}
+
 :root {
     --backgroundColor01: #1e2731;
     --backgroundColor02: #12171d;
