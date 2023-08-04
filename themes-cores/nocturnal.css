@@ -13,16 +13,24 @@
 #app-mount div[class^="chat-"] div[class*="container-"] span[class^="emoji-"] {
     font-family: 'OpenDyslexic', sans-serif !important;
 }
+
+@font-face{
+    font-family: 'IntelMonoOne';
+    src: url('https://github.com/intel/intel-one-mono/blob/main/fonts/woff/intelone-mono-font-family-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
-    --font-primary: monospace;
-    --font-display: monospace;
+    --font-primary: 'IntelMonoOne';
+    --font-display: 'IntelMonoOne';
 }
 ::placeholder, body, button, input, select, textarea{
-    font-family: monospace;
+    font-family: 'IntelMonoOne';
 }
 
 *{
-    font-family: monospace;
+    font-family: 'IntelMonoOne';
 }
 
 :root {
