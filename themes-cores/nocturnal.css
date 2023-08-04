@@ -21,11 +21,9 @@
     font-style: normal;
 }
 
-[class*="message-content"] {
+.span{
     font-family: system-ui;
-}
-[class*="header-"] {
-    font-family: system-ui;
+
 }
 
 
