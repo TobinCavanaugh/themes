@@ -21,12 +21,20 @@
     font-style: normal;
 }
 
+[class*="message-content"] {
+    font-family: system-ui;
+}
+[class*="header-"] {
+    font-family: system-ui;
+}
+
+
 :root {
     --font-primary: system-ui;
     --font-display: system-ui;
 }
 ::placeholder, body, button, input, select, textarea{
-    font-family: ui-system-ui;
+    font-family: system-ui;
 }
 
 
