@@ -16,7 +16,9 @@
 
 @font-face{
     font-family: 'IntelMonoOne';
-    src: url('https://github.com/intel/intel-one-mono/blob/main/fonts/woff/intelone-mono-font-family-regular.woff') format('woff');
+    src: url('https://github.com/intel/intel-one-mono/raw/main/fonts/woff/intelone-mono-font-family-regular.woff') format('woff'),
+    url('https://github.com/intel/intel-one-mono/raw/main/fonts/ttf/intelone-mono-font-family-regular.woff') format('truetype');
+
     font-weight: normal;
     font-style: normal;
 }
