@@ -22,11 +22,11 @@
 }
 
 :root {
-    --font-primary: monospace;
-    --font-display: monospace;
+    --font-primary: system-ui;
+    --font-display: system-ui;
 }
 ::placeholder, body, button, input, select, textarea{
-    font-family: ui-monospace;
+    font-family: ui-system-ui;
 }
 
 
@@ -2675,5 +2675,5 @@
 }
 
 *{
-    font-family: ui-monospace;
+    font-family: system-ui;
 }
