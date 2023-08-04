@@ -22,8 +22,8 @@
 }
 
 :root {
-    --font-primary: ui-monospace;
-    --font-display: ui-monospace;
+    --font-primary: monospace;
+    --font-display: monospace;
 }
 ::placeholder, body, button, input, select, textarea{
     font-family: ui-monospace;
