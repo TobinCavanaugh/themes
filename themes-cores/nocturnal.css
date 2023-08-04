@@ -24,16 +24,13 @@
 }
 
 :root {
-    --font-primary: 'IntelMonoOne';
-    --font-display: 'IntelMonoOne';
+    --font-primary: ui-monospace;
+    --font-display: ui-monospace;
 }
 ::placeholder, body, button, input, select, textarea{
-    font-family: 'IntelMonoOne';
+    font-family: ui-monospace;
 }
 
-*{
-    font-family: 'IntelMonoOne';
-}
 
 :root {
     --backgroundColor01: #1e2731;
@@ -2677,4 +2674,8 @@
 
 .matchingPostsRow-2IiEQ1{
     background-color: var(--backgroundColor01);
+}
+
+*{
+    font-family: ui-monospace;
 }
