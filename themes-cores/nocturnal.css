@@ -14,11 +14,11 @@
     font-family: 'OpenDyslexic', sans-serif !important;
 }
 :root {
-    --font-primary: var(--customFont);
-    --font-display: var(--customFont);
+    --font-primary: monospace;
+    --font-display: monospace;
 }
 ::placeholder, body, button, input, select, textarea{
-    font-family: var(--customFont) !important;
+    font-family: monospace;
 }
 
 *{
