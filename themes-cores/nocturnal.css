@@ -10,9 +10,7 @@
 #app-mount div[class^="chat-"] div[class*="container-"] span[class^="embedDescription-"],
 #app-mount div[class^="chat-"] div[class*="container-"] span[class^="embedFields-"],
 #app-mount div[class^="chat-"] div[class*="container-"] span[class^="mention-"],
-#app-mount div[class^="chat-"] div[class*="container-"] span[class^="emoji-"] {
-    font-family: 'OpenDyslexic', sans-serif !important;
-}
+#app-mount div[class^="chat-"] div[class*="container-"] span[class^="emoji-"];
 
 @font-face{
     font-family: 'IntelMonoOne';
